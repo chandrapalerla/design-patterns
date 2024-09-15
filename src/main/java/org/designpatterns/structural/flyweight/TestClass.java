@@ -10,7 +10,6 @@ public class TestClass {
         Scanner scanner1 = new Scanner(System.in);
         int b = scanner1.nextInt();
 
-        System.out.println("additionof a and b::::" + (a + b));
-
+        System.out.println("addition of a and b::::" + (a + b));
     }
 }
