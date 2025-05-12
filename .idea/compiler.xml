@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-24 (1)" />
         <module name="java-24" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="design-patterns" target="24" />
+      <module name="Design-Patterns" target="24" />
     </bytecodeTargetLevel>
   </component>
 </project>

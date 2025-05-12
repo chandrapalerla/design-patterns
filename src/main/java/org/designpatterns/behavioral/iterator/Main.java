@@ -11,9 +11,7 @@ public class Main {
         Item paper = new Item("paper", 500);
 
         Inventory inventory = new Inventory(pens, pencils, paper);
-        StockIterator iterator = inventory.iterator();
-        while (iterator.hasNext()) {
-            Item item = iterator.next();
+        for (Item item : (Iterable<Item>) inventory) {
             System.out.println(item.getName());
         }
 
@@ -28,7 +26,5 @@ public class Main {
             Employee employee = iterator1.next();
             System.out.println(employee.getName());
         }
-
     }
-
 }
