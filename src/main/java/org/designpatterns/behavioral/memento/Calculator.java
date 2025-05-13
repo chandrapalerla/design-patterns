@@ -3,7 +3,6 @@ package org.designpatterns.behavioral.memento;
 import org.designpatterns.behavioral.memento.manager.Adder;
 
 public class Calculator {
-
     public static void main(String[] args) {
         Adder adder = new Adder();
         adder.add(10);
@@ -14,5 +13,4 @@ public class Calculator {
         adder.undo();
         System.out.println(adder.getResult());
     }
-
 }

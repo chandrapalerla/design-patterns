@@ -17,8 +17,5 @@ public class SalesOrderClient {
     placeOrderHandler.invoke(new PlaceOrderCommand(jacket));
     returnOrderHandler.invoke(new ReturnOrderCommand(jacket));
 
-
   }
-
-
 }
