@@ -9,5 +9,4 @@ public class Clutch {
     public void lift() {
         System.out.println("Lifting clutch up");
     }
-
 }

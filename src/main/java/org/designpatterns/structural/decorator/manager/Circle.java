@@ -12,6 +12,7 @@ public class Circle implements Component {
         this.y = y;
     }
 
+    @Override
     public void draw(Graphics graphics) {
         graphics.drawOval(x, y, 50, 50);
     }

@@ -8,5 +8,4 @@ public class GearStick {
     System.out.println("Changing gear to " + gear);
     this.gear = gear;
   }
-
 }

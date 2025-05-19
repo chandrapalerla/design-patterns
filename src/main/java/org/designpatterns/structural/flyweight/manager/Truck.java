@@ -19,5 +19,4 @@ public class Truck implements Vehicle {
     public int[] getLocation() {
         return location;
     }
-
 }

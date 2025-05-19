@@ -40,5 +40,4 @@ public class PopulationSimulator {
         System.out.println("Removing " + animals.get(0));
         animals.remove(0);
     }
-
 }

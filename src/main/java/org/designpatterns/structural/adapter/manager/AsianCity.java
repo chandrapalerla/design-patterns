@@ -31,5 +31,4 @@ public class AsianCity implements City {
     public void setHasWeatherWarning(boolean hasWeatherWarning) {
         this.hasWeatherWarning = hasWeatherWarning;
     }
-
 }

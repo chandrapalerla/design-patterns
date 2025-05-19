@@ -13,9 +13,7 @@ public class WeatherWarnings {
         } else {
             System.out.println("Temperature in " + city.getName() + " is OK.");
         }
-
     }
-
 }
 
 

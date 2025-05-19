@@ -12,13 +12,10 @@ public class PizzaWithExtraCheese implements Pizza {
         toppings = pizza.getToppings();
         toppings.add("extra cheese");
     }
-
     public ArrayList getToppings() {
         return toppings;
     }
-
     public String getName() {
         return pizza.getName();
     }
-
 }

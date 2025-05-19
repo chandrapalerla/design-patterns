@@ -13,7 +13,6 @@ public class PizzaHawaiian implements Pizza {
         toppings.add("ham");
         toppings.add("pineapple");
     }
-
     public ArrayList getToppings() {
         return toppings;
     }
@@ -21,5 +20,4 @@ public class PizzaHawaiian implements Pizza {
     public String getName() {
         return name;
     }
-
 }

@@ -18,5 +18,4 @@ public class CarFacade {
     accelerator.press();
     clutch.press();
   }
-
 }

@@ -12,7 +12,5 @@ public class VacationClient {
 
         VacationFacade vacationFacade = new VacationFacade();
         vacationFacade.book(startDate, endDate);
-
     }
-
 }

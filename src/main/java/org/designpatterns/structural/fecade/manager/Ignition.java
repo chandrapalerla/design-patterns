@@ -13,5 +13,4 @@ public class Ignition {
         System.out.println("Turning ignition off");
         isOn = false;
     }
-
 }

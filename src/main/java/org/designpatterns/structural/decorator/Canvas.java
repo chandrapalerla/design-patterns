@@ -21,12 +21,10 @@ public class Canvas extends JPanel {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
-
     public void paint(Graphics graphics) {
         circle1.draw(graphics);
         circle2 = new DecoratorWithRedBorder(circle2);
         circle2.draw(graphics);
         circle3.draw(graphics);
     }
-
 }

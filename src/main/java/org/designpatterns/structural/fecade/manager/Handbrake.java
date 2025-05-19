@@ -13,5 +13,4 @@ public class Handbrake {
         System.out.println("Lifting up handbrake");
         isUp = true;
     }
-
 }

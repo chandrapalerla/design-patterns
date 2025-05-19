@@ -7,5 +7,4 @@ public interface Animal {
     int[] getLocation();
 
     void setLocation(int latitude, int longitude);
-
 }

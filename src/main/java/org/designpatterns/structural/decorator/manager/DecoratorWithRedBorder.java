@@ -10,10 +10,10 @@ public class DecoratorWithRedBorder implements Component {
         this.decoratedComponent = component;
     }
 
+    @Override
     public void draw(Graphics graphics) {
         graphics.setColor(Color.RED);
         decoratedComponent.draw(graphics);
         graphics.setColor(Color.BLACK);
     }
-
 }
