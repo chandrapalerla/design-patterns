@@ -11,6 +11,4 @@ public class Button {
   public void click(Command command) {
     command.execute();
   }
-
-
 }

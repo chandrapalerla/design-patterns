@@ -16,6 +16,7 @@ public class DrawCanvas extends JPanel {
         frame.setVisible(true);
     }
 
+    @Override
     public void paint(Graphics graphics) {
         Square square = new Square(new BlueColorShape());
         square.draw(graphics);
@@ -24,5 +25,4 @@ public class DrawCanvas extends JPanel {
         Triangle triangle = new Triangle(new GreenColorShape());
         triangle.draw(graphics);
     }
-
 }

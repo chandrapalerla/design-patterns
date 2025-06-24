@@ -11,9 +11,11 @@ public class PizzaMargherita implements Pizza {
         toppings.add("cheese");
         toppings.add("tomato");
     }
+    @Override
     public ArrayList getToppings() {
         return toppings;
     }
+    @Override
     public String getName() {
         return name;
     }

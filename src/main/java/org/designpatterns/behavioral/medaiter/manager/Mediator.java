@@ -18,5 +18,4 @@ public class Mediator {
             driver.deliver(item, amount, customer);
         }
     }
-
 }

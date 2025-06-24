@@ -7,21 +7,8 @@ public class Robot {
     public Robot(String name) {
         this.name = name;
     }
-
-    public IBehaviour getBehaviour() {
-        return behaviour;
-    }
-
     public void setBehaviour(IBehaviour behaviour) {
         this.behaviour = behaviour;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void move() {

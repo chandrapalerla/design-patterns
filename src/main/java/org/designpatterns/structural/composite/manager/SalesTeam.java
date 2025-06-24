@@ -7,6 +7,7 @@ public class SalesTeam implements SalesComposite {
 
     private final List<SalesComposite> payees = new ArrayList<>();
 
+    @Override
     public void payExpenses(int amount) {
         payees.forEach(payee -> payee.payExpenses(amount));
     }

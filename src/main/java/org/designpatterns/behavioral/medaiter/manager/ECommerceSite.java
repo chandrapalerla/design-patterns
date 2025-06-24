@@ -17,9 +17,7 @@ public class ECommerceSite {
         int newAmount = stock.get("pens") - amount;
         stock.put(item, newAmount);
     }
-
     public boolean checkInStock(String item, int amount) {
       return stock.containsKey(item) && stock.get(item) > amount;
     }
-
 }

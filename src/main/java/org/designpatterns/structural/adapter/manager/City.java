@@ -11,8 +11,4 @@ public interface City {
     boolean getHasWeatherWarning();
 
     void setHasWeatherWarning(boolean hasWeatherWarning);
-
 }
-
-
-

@@ -16,5 +16,4 @@ public class TruckPriceCalculator implements PriceCalculator {
     int price = Math.max(averagePrice - age*100 - mileage/100, 0);
     return price + "USD";
   }
-
 }

@@ -24,5 +24,4 @@ public class PriceCalculatorMain {
         String price = calculator.calculatePrice();
         System.out.println("The price of vehicle is: " + price);
     }
-
 }

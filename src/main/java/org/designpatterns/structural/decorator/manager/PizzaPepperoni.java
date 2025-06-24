@@ -12,9 +12,11 @@ public class PizzaPepperoni implements Pizza {
         toppings.add("tomato");
         toppings.add("pepperoni");
     }
+    @Override
     public ArrayList getToppings() {
         return toppings;
     }
+    @Override
     public String getName() {
         return name;
     }

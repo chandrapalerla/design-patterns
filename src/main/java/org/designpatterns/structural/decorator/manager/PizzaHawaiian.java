@@ -13,10 +13,13 @@ public class PizzaHawaiian implements Pizza {
         toppings.add("ham");
         toppings.add("pineapple");
     }
+
+    @Override
     public ArrayList getToppings() {
         return toppings;
     }
 
+    @Override
     public String getName() {
         return name;
     }
